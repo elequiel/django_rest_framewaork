@@ -2,7 +2,7 @@
 from django.contrib.auth.models import User, Group
 from rest_framework import viewsets
 from rest_framework import permissions
-from restapiecs.apitest.serializers import UserSerializer, GroupSerializer
+from apitest.serializers import UserSerializer, GroupSerializer
 # Create your views here.
 
 class UserViewSet(viewsets.ModelViewSet):
@@ -14,4 +14,3 @@ class GroupViewSet(viewsets.ModelViewSet):
     queryset = Group.objects.all()
     serializer_class = GroupSerializer
     permission_classes = [permissions.IsAuthenticated]
-    

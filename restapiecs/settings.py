@@ -25,7 +25,7 @@ SECRET_KEY = '2#zt4(uwud!=2c!__^dc^zr8n87+^^y2e55e!+x6wf9a0cnrsd'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['testdjangoecs.azurewebsites.net', '127.0.0.1']
 
 
 # Application definition
